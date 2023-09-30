@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "CanvasCraft",
+    "description": "List of features include: Dark Mode, Open PDFs in a new tab, and improves the calendar",
+    "version": "1.0",
+    "icons": {
+        "16": "images/16 cc (1).png",
+        "128": "images/128 cc.png"
+    },
+    "permissions": ["tabs", "activeTab", "contextMenus", "storage"],
+    "background": {
+        "service_worker": "background.js"
+    },
+
+    "content_scripts": [{
+        "matches": ["*://*/*", "https://*.instructure.com/*"],
+        
+        "js": ["contentscript.js"],
+        "css": ["style.css"]
+    }]
+    
+}

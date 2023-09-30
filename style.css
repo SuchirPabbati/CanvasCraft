@@ -1,0 +1,216 @@
+:root:root {
+    --ic-brand-primary: #282828;
+    --ic-link-color: #282828;
+    --ic-brand-global-nav-bgd: #282828;
+    --ic-brand-global-nav-logo-bgd: #282828;
+    --ic-brand-Login-body-bgd-color: #282828;
+    --ic-brand-Login-body-bgd-shadow-color: #282828;
+    --ic-brand-global-nav-menu-item__text-color: #C7CDD1;
+    --ic-brand-global-nav-menu-item__text-color--active: #fff;
+    --ic-brand-global-nav-ic-icon-svg-fill--active: #fff;
+    --ic-brand-font-color-dark-lightened-15: #C7CDD1;
+    --eHiXd-linkColor: #fff;
+}
+.ic-DashboardCard,
+.ic-DashboardCard__header_content,
+.header,
+.ic-DashboardCard__action-container,
+.item-group-container,
+.ig-row,
+.header-bar-outer-container,
+.tray-with-space-for-global-nav,
+.fLzZc_caGd,
+.fc-body,
+.fc-content,
+.fc-event-container,
+.comm-channel,
+.grouping,
+th,
+.table,
+.planner-day,
+.nothingPlannedContainer_hppr,
+.comments,
+.roster-tab,
+.rosterUser,
+.syllabus_assignment,
+tbody,
+.day_date,
+.table,
+.table-striped,
+.ic-flash-error,
+span[role=dialog],
+span[role=dialog]>div,
+.agenda-wrapper,
+.agenda-day,
+.agenda-event__container,
+.event-details,
+.rubric_title,
+.content_box {
+    background-color: #282828 !important;
+}
+.react-rubric tr,
+.react-rubric th {
+    background-color: #282828 !important;
+    color: #888 !important;
+}
+.react-rubric td {
+    background-color: #282828 !important;
+    color: #888 !important;
+}
+body,
+.header-bar,
+.ui-tabs-anchor,
+.quiz-submission,
+.ig-header,
+.accessible-toggler,
+.ic-Input,
+.ic-DashboardCard__box__header {
+    background: #1f1f1f !important;
+    color: #C7CDD1 !important;
+}
+.module-sequence-footer-content,
+.ic-app-crumbs,
+#breadcrumbs,
+.course-list-unpublished-course-row {
+    background: #1f1f1f !important;
+}
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-app-header__menu-list-link {
+    background: #333 !important;
+}
+.ic-Dashboard-header__layout,
+div.comment {
+    background: #1f1f1f !important;
+    color: #fff !important;
+}
+.Button,
+.btn {
+    background-color: #282828 !important;
+    color: #C7CDD1 !important;
+}
+a {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.status-description,
+.title,
+.locked_title,
+.points_possible_display,
+.ig-details__item,
+.name,
+h2,
+.comment,
+td,
+.score_value,
+.ic-Login__actions,
+.ic-Label {
+    color: #C7CDD1 !important;
+}
+.ic-sidebar-logo {
+    visibility: hidden;
+}
+.Day-styles__root {
+    color: #fff !important;
+}
+.EmptyDays-styles__root {
+    background-color: #282828 !important;
+    color: #fff !important;
+}
+.PlannerItem-styles__root {
+    color: #C7CDD1 !important;
+}
+.fc-today {
+    background-color: #1f1f1f !important;
+}
+.ic-notification__content,
+table.summary td,
+#syllabus tr.date.date_passed td {
+    background: none !important;
+}
+#minical {
+    background-color: #1f1f1f !important;
+}
+.fc-widget-content,
+.agenda-day {
+    border: 1px solid #4d4d4d !important;
+}
+#context-list-holder {
+    background-color: #1f1f1f !important;
+}
+.course-list-table .course-list-table-row:hover,
+.ef-item-row:hover,
+tr:hover {
+    background-color: #4b4b4b !important;
+}
+.mini_calendar .day.today {
+    background-color: #4d4d4d !important;
+}
+.ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
+    background-color: #1f1f1f !important;
+}
+.ic-Table {
+    color: white !important;
+}
+.navigation-tray-container button:active::before {
+    border-color: #4d4d4d !important
+}
+.question_points_holder {
+    color: none !important;
+}
+#questions.assessing,
+.question {
+    background: none !important;
+}
+.pinned-discussions-v2__wrapper,
+.unpinned-discussions-v2__wrapper,
+.ic-discussion-row,
+.message-list .messages>li {
+    background: #1f1f1f !important;
+    color: #C7CDD1 !important;
+}
+.toolbarView .headerBar,
+.discussion-reply-box,
+.conversations .panel {
+    background: #4b4b4b !important;
+}
+.discussion_entry {
+    background: #1f1f1f !important;
+}
+.ic-RichContentEditor>div,
+.tox:not(.tox-tinymce-inline) .tox-editor-header,
+.tox .tox-toolbar,
+.tox .tox-toolbar__overflow,
+.tox .tox-toolbar__primary,
+.tox .tox-menubar,
+.tox .tox-menu {
+    background-color: #1a1a1a !important;
+    color: #C7CDD1 !important;
+}
+.tox .tox-tbtn,
+.tox .tox-mbtn,
+.tox .tox-collection__item,
+.tox .tox-collection--list .tox-collection__item--active {
+    color: #C7CDD1 !important;
+}
+.tox .tox-edit-area__iframe,
+.tox .tox-tbtn--active,
+.tox .tox-mbtn--active,
+.tox .tox-collection--list .tox-collection__item--enabled,
+.tox .tox-split-button .tox-tbtn.tox-split-button__chevron {
+    background-color: #7b7b7b !important;
+    color: white !important;
+}
+.tox .tox-tbtn:hover,
+.tox .tox-split-button:hover,
+.tox .tox-tbtn.tox-tbtn--enabled:hover,
+.tox .tox-split-button .tox-tbtn.tox-split-button__chevron:hover {
+    border-color: #7b7b7b !important;
+    background-color: #7b7b7b !important;
+    color: white !important;
+}
+.tox .tox-tbtn svg {
+    fill: #C7CDD1 !important;
+}
+.message-list .date,
+.ToDoSidebarItem__Info>ul>li {
+    color: #7b7b7b !important;
+}
