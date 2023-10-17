@@ -11,12 +11,22 @@
     --ic-brand-font-color-dark-lightened-15: #C7CDD1;
     --eHiXd-linkColor: #fff;
 }
+
 .ic-DashboardCard,
 .ic-DashboardCard__header_content,
 .header,
 .ic-DashboardCard__action-container,
-.item-group-container,
-.ig-row,
+.item-group-container ,
+.item-group-condensed, 
+#ag-list .item-group-condensed, 
+.discussion-collections .item-group {
+    background-color: #1f1f1f !important;
+    margin: 2em;
+    border: 1px solid #0c0c0c !important;
+}
+.ig-row{
+    border : 1px solid #0c0c0c !important;
+}
 .header-bar-outer-container,
 .tray-with-space-for-global-nav,
 .fLzZc_caGd,
