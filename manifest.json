@@ -11,11 +11,12 @@
     "background": {
         "service_worker": "background.js"
     },
+    
 
     "content_scripts": [{
-        "matches": ["*://*/*", "https://*.instructure.com/*"],
+        "matches": ["https://*.instructure.com/*"],
         
-        "js": [],
+        "js": ["content.js"],
         "css": ["style.css"]
     }]
     
