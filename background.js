@@ -4,12 +4,16 @@ chrome.contextMenus.create({
     contexts : ["link"],
 })
 var docurl;
+
 chrome.runtime.onMessage.addListener(
     function(request,sender,sendResponse){
+        console.log("request"+request.greeting);
         if(request.greeting){
+            console.log("message equals greeting")
             docurl = request.greeting;
             console.log(docurl);
         }
+        
     }
 );
 
@@ -21,7 +25,7 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
         console.log(arr);
         arr.pop();
         var final = arr[0]+".com"+docurl;
-        console.log(final);
+        console.log("Var2 :"+docurl);
 
         
         chrome.tabs.create({
@@ -37,3 +41,14 @@ chrome.contextMenus.onClicked.addListener(function(info, tab) {
 })
 
 
+
+chrome.runtime.onMessage.addListener(function(request, sender, sendResponse) {
+    if (request.type === "toggleDarkMode") {
+        chrome.tabs.query({url: "https://*.instructure.com/*"}, function(tabs) {
+            tabs.forEach(function(tab) {
+                chrome.scripting.insertCSS({target: {tabId: tab.id}, files: ["style.css"]});
+                chrome.tabs.sendMessage(tab.id, {action: "toggleDarkMode"});
+            });
+        });
+    }
+});
