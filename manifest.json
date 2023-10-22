@@ -3,11 +3,15 @@
     "name": "CanvasCraft",
     "description": "List of features include: Dark Mode, Open PDFs in a new tab, and improves the calendar",
     "version": "1.0",
+    "oauth2":{
+        "client_id": "597848685780-divq9uoe4foo81lvt6bv7ifgeo1kashi.apps.googleusercontent.com",
+        "scopes": []
+    },
     "icons": {
         "16": "images/16 cc (1).png",
         "128": "images/128 cc.png"
     },
-    "permissions": ["tabs", "activeTab", "contextMenus", "storage", "scripting"],
+    "permissions": ["tabs", "activeTab", "contextMenus", "storage", "scripting", "identity"],
     "web_accessible_resources": [
         {
             "resources": ["style.css"],
