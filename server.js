@@ -8,9 +8,11 @@ app.use(bodyParser.json());
 
 app.post('/exchange', (req, res) => {
     const code = req.body.code;
-    const clientId = '597848685780-divq9uoe4foo81lvt6bv7ifgeo1kashi.apps.googleusercontent.com';
-    const clientSecret = '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';
+    const clientId = process.env.CLIENT_ID;  // Use environment variable
+    const clientSecret = process.env.CLIENT_SECRET;
+    
     const redirectUri = 'https://ghaeonkdgkpombekogbeghcbcgkofdbe.chromiumapp.org/';
+    
 
     const options = {
         url: 'https://oauth2.googleapis.com/token',
