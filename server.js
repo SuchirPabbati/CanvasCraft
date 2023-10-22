@@ -8,11 +8,8 @@ app.use(bodyParser.json());
 
 app.post('/exchange', (req, res) => {
     const code = req.body.code;
-<<<<<<< HEAD
     const clientId = process.env.CLIENT_ID;  // Use environment variable
     const clientSecret = process.env.CLIENT_SECRET;
-=======
->>>>>>> b15c1121df6da22702efb4be9983cf17c011e1e9
     
     const redirectUri = 'https://ghaeonkdgkpombekogbeghcbcgkofdbe.chromiumapp.org/';
     
